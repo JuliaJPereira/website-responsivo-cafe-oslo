@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.cabecalho {
+  background-image: url("imagens/Fondo1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  body p {
+    font-size: 13px;
+  }
+
+  .cabecalho {
+    padding: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f5f0ed;
+  }
+
+  /* MENU */
+
+  ul li {
+    display: none;
+  }
+
+  .div-hr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  hr {
+    border: 1px solid white;
+    width: 150px;
+  }
+
+  .titulo-texto h1,
+  p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .titulo-texto p {
+    text-align: justify;
+    padding: 40px 20px;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .hotpink {
+    background-color: #d03b40;
+    color: #ded6c0;
+    text-align: center;
+    padding: 40px 40px;
+  }
+
+  .hotpink p {
+    text-align: justify;
+  }
+
+  .hotpink a {
+    text-decoration: none;
+    color: #ded6c0;
+    cursor: pointer;
+  }
+
+  .pink {
+    background-color: #f5f0ed;
+    color: #d03b40;
+    text-align: center;
+    padding: 40px 40px;
+  }
+
+  .pink p {
+    text-align: justify;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .desayno {
+    padding: 40px 40px;
+    background-image: url("imagens/Fondo2.jpg");
+    text-align: center;
+    color: #f5f0ed;
+  }
+
+  .desayno h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .desayno p {
+    text-align: justify;
+  }
+
+  .desayno button {
+    background-color: transparent;
+    font-size: 13px;
+    color: #f5f0ed;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 3px solid #f5f0ed;
+    cursor: pointer;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .caracteristicas {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .pan img {
+    width: 90px;
+    height: 90px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .pan p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+
+  .tartas img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+  }
+
+  .tartas p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+
+  .dulces img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+  }
+
+  .dulces p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+
+  .ingredientes img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+  }
+
+  .ingredientes p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  #endereco {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .cabecalho {
+    color: #f5f0ed;
+    padding: 20px 20px;
+    height: 93vh;
+  }
+
+  .menu {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #ded6c0;
+  }
+
+  ul li:hover {
+    text-decoration: underline;
+  }
+
+  .titulo-texto h1 {
+    font-size: 40px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .titulo-texto p {
+    padding: 30px 0px;
+    padding-bottom: 70px;
+    text-align: center;
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+
+  .div-hr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  hr {
+    border: 1px solid white;
+    width: 150px;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .dois-blocos {
+    display: flex;
+  }
+
+  .hotpink {
+    display: inline-block;
+    background-color: #d03b40;
+    color: #ded6c0;
+    text-align: center;
+    padding: 80px 50px;
+    width: 50%;
+  }
+  .hotpink h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .hotpink p {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .hotpink a {
+    text-decoration: none;
+    color: #ded6c0;
+    cursor: pointer;
+  }
+
+  .pink {
+    display: inline-block;
+    background-color: #f5f0ed;
+    color: #d03b40;
+    text-align: center;
+    padding: 80px 50px;
+    width: 50%;
+  }
+
+  .pink h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .pink p {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .desayno {
+    padding: 40px 40px;
+    background-image: url("imagens/Fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #f5f0ed;
+    height: 70vh;
+  }
+
+  .desayno h1 {
+    font-size: 45px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .desayno p {
+    text-align: center;
+    padding: 40px 0px;
+    max-width: 40vw;
+    margin: 0 auto;
+  }
+
+  .desayno button {
+    background-color: transparent;
+    font-size: 15px;
+    color: #f5f0ed;
+    padding: 10px 20px;
+    border: 3px solid #f5f0ed;
+    cursor: pointer;
+  }
+
+  .desayno button:hover {
+    background-color: #d03b40;
+    color: #f5f0ed;
+    border-color: #d03b40;
+    transition-delay: 0.1s;
+  }
+
+  /*----------------------------------------------------------------------------------------------------------*/
+
+  .caracteristicas {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+    display: flex;
+  }
+
+  .caracteristicas > div {
+    display: flex;
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .caracteristicas > div > img {
+    margin-right: 20px;
+    height: 170px;
+    width: 170px;
+  }
+
+  .caracteristicas > div > div > p {
+    text-align: justify;
+    padding-right: 30px;
+  }
+}

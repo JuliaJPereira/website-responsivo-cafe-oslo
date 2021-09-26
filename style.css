@@ -13,6 +13,10 @@
   background-size: cover;
 }
 
+.btn-menu {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   body p {
     font-size: 13px;
@@ -26,7 +30,35 @@
     color: #f5f0ed;
   }
 
-  /* MENU */
+  .btn-menu {
+    border: none;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    background-color: #d03b40;
+  }
+
+  .btn-menu > img {
+    width: 30px;
+  }
+
+  .menu-open {
+    background-color: #d03b40;
+    border-radius: 8px;
+    width: 50vw;
+    position: absolute;
+    right: 20px;
+  }
+
+  .menu-open ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .menu-open ul li a {
+    text-decoration: none;
+    color: #ded6c0;
+  }
 
   ul li {
     display: none;
